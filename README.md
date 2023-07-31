@@ -14,7 +14,13 @@ The library uses the [Cheerio](https://cheerio.js.org/) library to parse and tra
 - **Read Time**: An estimated reading time for the article in minutes.
 - **Description**: A short excerpt or description of the article.
 
-## How to Use
+## With NPX
+
+```bash
+npx article-metadata-extractor <ARTICLE-URL>
+```
+
+## Using in Project
 
 1. Install dependency:
 
