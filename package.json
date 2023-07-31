@@ -12,5 +12,8 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12"
   },
+  "bin": {
+    "article-metadata-extractor": "bin/index.js"
+  },
   "license": "MIT"
 }
