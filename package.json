@@ -1,16 +1,17 @@
 {
   "name": "article-metadata-extractor",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "type": "module",
   "engines": {
-    "node": ">=18"
+    "node": ">=16"
   },
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.2"
   },
   "bin": {
     "article-metadata-extractor": "bin/index.js"
