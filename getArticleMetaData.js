@@ -76,7 +76,7 @@ function getPublicationDate(_$) {
 
   const standardizedDate = new Date(date);
 
-  return standardizedDate !== "Invalid Date" ? standardizedDate.toISOString() : null;
+  return standardizedDate?.toString() !== "Invalid Date" ? standardizedDate.toISOString() : null;
 }
 
 function getReadTime(_$, options = {wordsPerMinute: 100}) {
