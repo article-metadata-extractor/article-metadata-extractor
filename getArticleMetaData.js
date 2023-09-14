@@ -74,9 +74,9 @@ function getPublicationDate(_$) {
     $("meta[name='parsely-pub-date']").attr("content") ||
     '';
 
-  const standardizedDate = new Date(date).toISOString();
+  const standardizedDate = new Date(date);
 
-  return standardizedDate !== "Invalid Date" ? standardizedDate : null;
+  return standardizedDate !== "Invalid Date" ? standardizedDate.toISOString() : null;
 }
 
 function getReadTime(_$, options = {wordsPerMinute: 100}) {
